@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renovare Consultoria</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Renovare Consultoria</div>
+        <nav>
+            <div class="nav-dropdown">
+                <a href="">Início</a>
+                <a href="">Serviços</a>
+                <a href="">FAQ</a>
+                <a href="">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Sua empresa em conformidade</h1>
+        <p>Consultoria técnica especializada em Vigilância Sanitária para garantir a segurança do seu negócio e dos seus clientes.</p>
+        <br>
+        <button onclick="document.getElementById('contato').scrollIntoView()">Solicitar Orçamento</button>
+    </section>
+
+    <section id="servicos" class="section">
+        <h2>Nossos Serviços</h2>
+        <div class="services-container">
+            <div class="card" style="animation-delay: 0.2s;">
+                <h3>Licenciamento</h3>
+                <p>Auxílio completo na obtenção de alvarás e licenças sanitárias fundamentais.</p>
+            </div>
+            <div class="card" style="animation-delay: 0.4s;">
+                <h3>Treinamentos</h3>
+                <p>Capacitação de equipes em Boas Práticas de Fabricação e Manipulação.</p>
+            </div>
+            <div class="card" style="animation-delay: 0.6s;">
+                <h3>Auditoria</h3>
+                <p>Inspeções preventivas para identificar e corrigir falhas antes da fiscalização.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section" style="background: #f1f1f1;">
+        <h2>Perguntas Frequentes (FAQ)</h2>
+        <div style="max-width: 800px; margin: 40px auto;">
+            <div class="faq-item">
+                <strong>Como funciona a primeira visita?</strong>
+                <p>Realizamos um diagnóstico completo das instalações e processos para identificar pontos críticos.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Quais segmentos vocês atendem?</strong>
+                <p>Restaurantes, farmácias, indústrias alimentícias e clínicas médicas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="contact-area">
+            <h2>Fale Conosco</h2>
+            <p>Deixe seus dados e entraremos em contato em até 24 horas.</p>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label>Nome Completo</label>
+                    <input type="text" placeholder="Seu nome...">
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea rows="5" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p> 2026 Sanitária Pro Consultoria. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JS/index.js"></script>
+</html>
