@@ -1,90 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renovare Consultoria</title>
+    <title>Renovare | Consultoria Alimentícia</title>
     <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <div class="logo">Renovare Consultoria</div>
         <nav>
-            <div class="nav-dropdown">
-                <a href="">Início</a>
-                <a href="">Serviços</a>
-                <a href="">FAQ</a>
-                <a href="">Contato</a>
-            </div>
+            <div class="logo">RENOVARE</div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#problemas">Desafios</a></li>
+                <li><a href="#solucao">Solução</a></li>
+                <li><a href="#processo">Processo</a></li>
+                <li><a href="#contato" class="btn-nav">Falar com Consultor</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="inicio" class="hero">
-        <h1>Sua empresa em conformidade</h1>
-        <p>Consultoria técnica especializada em Vigilância Sanitária para garantir a segurança do seu negócio e dos seus clientes.</p>
-        <br>
-        <button onclick="document.getElementById('contato').scrollIntoView()">Solicitar Orçamento</button>
-    </section>
-
-    <section id="servicos" class="section">
-        <h2>Nossos Serviços</h2>
-        <div class="services-container">
-            <div class="card" style="animation-delay: 0.2s;">
-                <h3>Licenciamento</h3>
-                <p>Auxílio completo na obtenção de alvarás e licenças sanitárias fundamentais.</p>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>RENOVARE</h1>
+                <p class="subtitle">CONSULTORIA DE EMPRESAS ALIMENTÍCIAS</p>
             </div>
-            <div class="card" style="animation-delay: 0.4s;">
-                <h3>Treinamentos</h3>
-                <p>Capacitação de equipes em Boas Práticas de Fabricação e Manipulação.</p>
-            </div>
-            <div class="card" style="animation-delay: 0.6s;">
-                <h3>Auditoria</h3>
-                <p>Inspeções preventivas para identificar e corrigir falhas antes da fiscalização.</p>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt="Consultoras trabalhando">
             </div>
         </div>
     </section>
 
-    <section id="faq" class="section" style="background: #f1f1f1;">
-        <h2>Perguntas Frequentes (FAQ)</h2>
-        <div style="max-width: 800px; margin: 40px auto;">
-            <div class="faq-item">
-                <strong>Como funciona a primeira visita?</strong>
-                <p>Realizamos um diagnóstico completo das instalações e processos para identificar pontos críticos.</p>
-            </div>
-            <div class="faq-item">
-                <strong>Quais segmentos vocês atendem?</strong>
-                <p>Restaurantes, farmácias, indústrias alimentícias e clínicas médicas.</p>
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="color-box"></div>
+                <div class="about-content">
+                    <h2>SOBRE A RENOVARE</h2>
+                    <p>Especialistas em otimizar processos no setor alimentício, trazendo eficiência, redução de desperdícios e alta lucratividade para o seu negócio.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="section">
-        <div class="contact-area">
-            <h2>Fale Conosco</h2>
-            <p>Deixe seus dados e entraremos em contato em até 24 horas.</p>
-            <br>
-            <form>
-                <div class="form-group">
-                    <label>Nome Completo</label>
-                    <input type="text" placeholder="Seu nome...">
+    <section id="problemas" class="problems">
+        <div class="container">
+            <div class="section-title-box">PROBLEMA</div>
+            <div class="problems-grid">
+                <div class="problem-images">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" alt="Problema 1">
+                    <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=400" alt="Problema 2">
                 </div>
-                <div class="form-group">
-                    <label>E-mail</label>
-                    <input type="email" placeholder="seu@email.com">
+                <div class="problem-list">
+                    <div class="p-item">
+                        <h3>• PROBLEMA 1</h3>
+                        <p>Desperdício excessivo de insumos e falta de controle de estoque.</p>
+                    </div>
+                    <div class="p-item">
+                        <h3>• PROBLEMA 2</h3>
+                        <p>Processos lentos que impactam diretamente na experiência do cliente final.</p>
+                    </div>
+                    <div class="p-item">
+                        <h3>• PROBLEMA 3</h3>
+                        <p>Dificuldade em manter padrões de qualidade e segurança alimentar.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Mensagem</label>
-                    <textarea rows="5" placeholder="Como podemos ajudar?"></textarea>
-                </div>
-                <button type="submit">Enviar Mensagem</button>
-            </form>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p> 2026 Sanitária Pro Consultoria. Todos os direitos reservados.</p>
+    <section id="solucao" class="solution">
+        <div class="container split-grid">
+            <div class="solution-text">
+                <div class="label">SOLUÇÃO</div>
+                <p>Nossa metodologia foca na reestruturação completa da sua operação, utilizando dados e análises técnicas para garantir que cada etapa da produção seja otimizada.</p>
+                <p>Oferecemos diagnósticos precisos e acompanhamento lado a lado com a sua equipe.</p>
+            </div>
+            <div class="solution-img">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Análise de dados">
+            </div>
+        </div>
+    </section>
+
+    <section id="processo" class="process">
+        <div class="container">
+            <div class="section-title-box">PROCESSO</div>
+            <div class="process-grid">
+                <div class="process-text">
+                    <div class="p-step">
+                        <h3>• PROCESSO 1</h3>
+                        <p>Mapeamento detalhado e diagnóstico da situação atual da empresa.</p>
+                    </div>
+                    <div class="p-step">
+                        <h3>• PROCESSO 2</h3>
+                        <p>Implementação de novas diretrizes e treinamento especializado da equipe.</p>
+                    </div>
+                </div>
+                <div class="process-images">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=400" alt="Processo TI">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=400" alt="Reunião">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">PROVA</h2>
+            <div class="testimonial-grid">
+                <div class="t-card">
+                    <img src="https://i.pravatar.cc/150?u=1" alt="Cliente">
+                    <p>"A Renovare mudou nossa forma de gerir a cozinha. Reduzimos custos em 20%."</p>
+                </div>
+                <div class="t-card">
+                    <img src="https://i.pravatar.cc/150?u=2" alt="Cliente">
+                    <p>"O suporte na implementação dos processos foi fundamental para nossa expansão."</p>
+                </div>
+                <div class="t-card">
+                    <img src="https://i.pravatar.cc/150?u=3" alt="Cliente">
+                    <p>"Profissionalismo e resultados reais. Recomendo para qualquer empresa do setor."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="cta">
+        <div class="container cta-flex">
+            <div class="cta-image">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" alt="Consultora Especialista">
+            </div>
+            <div class="cta-content">
+                <div class="cta-label">CTA</div>
+                <div class="info-box">
+                    <p><strong>RENOVARE CONSULTORIA</strong></p>
+                    <p>(12) 3456-7890</p>
+                    <p>ola@renovareconsultoria.com.br</p>
+                    <p>www.renovareconsultoria.com.br</p>
+                    <button class="btn-final">Solicitar Orçamento</button>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="JS/index.js"></script>
+</body>
 </html>
